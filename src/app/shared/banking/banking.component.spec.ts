@@ -25,8 +25,8 @@ describe('BankingComponent', () => {
   });
 
   it(`(U) getPoupanca(): should poupanca have 10`, () => {
-    expect(component.getPoupanca).toEqual(10);
-    // expect(component.getPoupanca).toEqual(15); // para dar erro
+    // expect(component.getPoupanca).toEqual(10);
+    expect(component.getPoupanca).toEqual(15); // para dar erro
   })
 
   it(`(U) getCarteira(): should carteira have 50`, () => {
